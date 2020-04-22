@@ -147,18 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="driver.cpp" />
-    <ClCompile Include="engine.cpp" />
-    <ClCompile Include="fueltank.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="vehicle.cpp" />
+    <ClCompile Include="src\driver.cpp" />
+    <ClCompile Include="src\engine.cpp" />
+    <ClCompile Include="src\fueltank.cpp" />
+    <ClCompile Include="src\vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="driver.h" />
-    <ClInclude Include="engine.h" />
-    <ClInclude Include="fueltank.h" />
-    <ClInclude Include="product.h" />
-    <ClInclude Include="vehicle.h" />
+    <ClInclude Include="src\driver.h" />
+    <ClInclude Include="src\engine.h" />
+    <ClInclude Include="src\fueltank.h" />
+    <ClInclude Include="src\product.h" />
+    <ClInclude Include="src\vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

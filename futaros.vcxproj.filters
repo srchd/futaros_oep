@@ -18,33 +18,33 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vehicle.cpp">
+    <ClCompile Include="src\driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="engine.cpp">
+    <ClCompile Include="src\engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fueltank.cpp">
+    <ClCompile Include="src\fueltank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="driver.cpp">
+    <ClCompile Include="src\vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vehicle.h">
+    <ClInclude Include="src\driver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="engine.h">
+    <ClInclude Include="src\engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="fueltank.h">
+    <ClInclude Include="src\fueltank.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="product.h">
+    <ClInclude Include="src\product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="driver.h">
+    <ClInclude Include="src\vehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
