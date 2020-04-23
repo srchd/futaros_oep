@@ -10,6 +10,8 @@ private:
     double _consumption = 7.6;
 
 public:
+    Vehicle() : Capacity(3), color(BLUE) {};
+
     enum Color {
         BLUE,
         YELLOW,
@@ -19,8 +21,8 @@ public:
     Engine engine;
     std::vector <Product> cargo;
 
-    int Capacity = 3;
-    Color color = BLUE;
+    int Capacity;
+    Color color;
 
     bool checkFuel(int distance) const;
     void refuel();

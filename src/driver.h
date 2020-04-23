@@ -4,10 +4,10 @@
 class Driver
 {
 private:
-	int distance(Vehicle van, Product p);
+	int distance(Vehicle* van, Product p);
 
 public:
-	Vehicle van;
+	Vehicle* van = new Vehicle();
 
 	void dodo();
 	Product take();
